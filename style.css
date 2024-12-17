@@ -1,0 +1,62 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+    .header-img {
+        position: relative;
+        background-image: url(https://cdn.pixabay.com/photo/2016/07/12/11/39/checkmate-1511866_960_720.jpg);
+        background-size: cover;
+        font-size: 30px;
+        height: 200px;
+        color: red;
+        text-align: center;
+    }
+    }
+    body{
+    background-color:#333;
+    color: green;
+    }
+    .nav {
+        height: 20px;
+        background-color: gray;
+        text-align: center;
+        font-size: 0;
+    }
+    .nav-item {
+        display: inline-block;
+    }
+    .nav-item a {
+        margin: 20px;
+        padding: 0;
+        color: red;
+        text-decoration: double;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 18px;
+        letter-spacing: 2px;
+        transition: color 0.3ms;
+    }
+    .nav-item a:hover {
+        color: blue;
+    }
+    footer{
+        background-image: url(https://cdn.pixabay.com/photo/2020/12/02/10/31/magnus-carlsen-5796977_960_720.png);
+        background-size: 10px;
+        font-size: 24px;
+        font-weight: 900;
+        color: darkblue;
+        text-align: center;
+    }
+    .przycisk {
+        margin: 10px;
+        background-image: url(https://cdn.pixabay.com/photo/2024/07/31/15/10/blue-8935074_960_720.jpg);
+        border-radius: 20px;
+        font-size: 24px;
+        height: 100px;
+        width: 300px;
+        font-weight: 700;
+        color: firebrick;
+    }
+    .przycisk:hover {
+        color: hotpink;
+    }
